@@ -10,7 +10,7 @@ class Triangle
 
   def is_triangle?
     if !(side1 > 0 && side2 > 0 && side3 > 0 && ([side1, side2, side3].max < [side1, side2, side3].sum/2.0))
-        raise TriangleError
+      raise TriangleError
     end
   end
 
