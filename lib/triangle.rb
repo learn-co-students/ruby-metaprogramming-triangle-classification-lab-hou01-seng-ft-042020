@@ -27,7 +27,7 @@ class Triangle
   
   class TriangleError < StandardError
     def message
-      "Please check sides, this is not a valid triangle"
+      "This is not a triangle"
     end
   end
 end
